@@ -1,0 +1,49 @@
+.section-work {
+    padding-top: 0px;
+    padding-bottom: 94px;
+}
+
+.work__caption {
+    text-align: center;
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 1.16;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+.work__list {
+
+    display: flex;
+    gap: 30px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.work__image {
+    position: relative;
+    display: flex;
+}
+
+.work__text {
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    background-color: rgba(63, 64, 80, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
+}
+
+.work__description {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 1.14;
+    letter-spacing: 3%;
+}

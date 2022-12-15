@@ -1,0 +1,15 @@
+/*колір основного тексту rgba(33, 33, 33, 1) */
+/*вторичній колір тексту rgba(117, 117, 117, 1)*/
+/*білий колір тексту footer, hero rgba(255, 255, 255, 1)*/
+/* акцент синій rgba(33, 150, 243, 1)*/
+/* фон hero rgba(47, 48, 58, 1) */
+/* фон секции 3 (для index.html rgba(245, 244, 250, 1) */
+
+:root {
+    --accent-color: #2196f3;
+    --primary-text-color: rgba(33, 33, 33, 1);
+    --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-duration: 250ms;
+
+}
+

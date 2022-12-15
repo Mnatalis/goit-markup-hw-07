@@ -1,0 +1,44 @@
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.advantages {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 0px;
+        &__caption {
+        text-transform: uppercase;
+        font-style: Bold;
+        font-size: 14px;
+        line-height: 1.14;
+        margin-bottom: 10px;
+    }
+
+        &__text {
+        color: rgba(117, 117, 117, 1);
+        font-style: Regular;
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+.advantages__container {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background-color: rgba(245, 244, 250, 1);
+}
+

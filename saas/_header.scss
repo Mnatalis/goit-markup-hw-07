@@ -1,0 +1,115 @@
+header {
+    border-bottom: 2px solid #ECECEC;
+}
+
+.header {
+    padding-top: 24;
+    padding-bottom: 25;
+    border-bottom: 3px solid #ECECEC;
+}
+
+.navigation {
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    margin-right: auto;
+    margin-left: 0px;
+    padding-left: 93px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    gap: 50px;
+    align-items: center;
+                &__current-list {
+                    color: var(--accent-color);
+                    position: relative;
+                }               
+}
+
+.menu__current {
+    color: rgba(33, 150, 243, 1);
+    cursor: pointer;
+    &-list {
+            color: rgba(33, 150, 243, 1);
+            display: block;
+            padding-top: 32px;
+            padding-bottom: 32px;
+        }
+}
+
+
+.menu .menu__current-list::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    top: 76px;
+    background-color: currentColor;
+    border-radius: 2px;
+}
+
+.menu__nav .menu__link {
+    color: rgba(33, 33, 33, 1);
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition-property: transform;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-timing-function);
+        &:hover,
+        &:focus {
+            color: rgba(33, 150, 243, 1);
+            cursor: pointer;
+        }
+}
+
+.email-tel {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    padding-right: 50px;
+    gap: 30px;
+    &__list:hover .email-tel__icon,
+    &__list:focus .email-tel__icon {
+            fill: var(--accent-color);
+        }
+}
+    .email-tel__icon {
+            fill: rgba(117, 117, 117, 1);
+            ;
+            margin-right: 10px;
+            transition: fill var(--transition-duration) var(--transition-timing-function);
+        }
+
+
+        .email-tel__contact {
+            text-decoration: none;
+            letter-spacing: 0.02em;    
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.14;    
+            display: flex;
+            align-items: center;
+            transition: color var(--transition-duration) var(--transition-timing-function);
+                color: rgba(117, 117, 117, 1);
+            
+                &:hover,
+                &:focus {
+                    color: var(--accent-color);
+                }
+        }
+
+
+
+
+
+
