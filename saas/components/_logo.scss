@@ -4,18 +4,42 @@
     line-height: 1.19;
     font-weight: 700;
     display: inline-block;
+    color: rgba(33, 33, 33, 1);
     &__partone {
         color: rgba(33, 150, 243, 1);
+        display: inline-block;
     }
-        &__partsecond {
-            color: rgba(33, 33, 33, 1);
-        }
-    
-        &__partthird {
-            color: rgba(255, 255, 255, 1);
-            margin-bottom: 20px;
-        }
+          &__footer {
+              font-family: "Raleway", sans-serif;
+              font-size: 26px;
+              line-height: 1.19;
+              font-weight: 700;
+              display: inline-block;
+              color: rgba(255, 255, 255, 1);
+          }
 }
 
+//  .logo {
+//      font-family: "Raleway", sans-serif;
+//      font-size: 26px;
+//      line-height: 1.19;
+//      font-weight: 700;
+//      display: inline-block;
+//      color: rgba(33, 33, 33, 1);
+//  }
 
+//  .logo-partone {
+//      color: rgba(33, 150, 243, 1);
+//      display: inline-block;
+//  }
 
+ 
+
+  // &__partsecond {
+  //     color: rgba(33, 33, 33, 1);
+  // }
+
+  // &__partthird {
+  //     color: rgba(255, 255, 255, 1);
+  //     margin-bottom: 20px;
+  // }

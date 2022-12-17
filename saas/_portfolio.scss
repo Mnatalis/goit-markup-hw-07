@@ -88,6 +88,24 @@
 
 .image-list {
     width: 370px;
+    &:hover,
+        &:focus {
+            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+                1px 4px 6px rgba(0, 0, 0, 0.16);
+        }
+}
+
+
+.link-project {
+    cursor: pointer;
+
+&:hover .description::before,
+    &:focus .description::before {
+        background-color: rgba(33, 150, 243, 0.9);
+        transform: translateY(0);
+        transition-duration: var(--transition-duration);
+        transition-timing-function: var(--transition-timing-function);
+    }
         &:hover,
         &:focus {
             box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -95,23 +113,11 @@
         }
 }
 
-.image-list:hover .description::before,
-.image-list:focus .description::before {
-    background-color: rgba(33, 150, 243, 0.9);
+.link-project:hover .project-paragraph,
+.link-project:focus .project-paragraph {
     transform: translateY(0);
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--transition-timing-function);
-}
-
-.image-list:hover .project-paragraph,
-.image-list:focus .project-paragraph {
-    transform: translateY(0);
-    transition-duration: var(--transition-duration);
-    transition-timing-function: var(--transition-timing-function);
-}
-
-.link-project {
-    cursor: pointer;
 }
 
 .image {
